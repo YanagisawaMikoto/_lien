@@ -2124,20 +2124,3 @@ ul {
     transform: translateY(0);
   }
 }
-
-/* スクショ撮影用：アニメーション停止 */
-* {
-  animation: none !important;
-  transition: none !important;
-}
-
-.fv,
-.fv *,
-.fv img,
-.fv__img,
-.fv__visual {
-  opacity: 1 !important;
-  transform: none !important;
-  visibility: visible !important;
-}
-
